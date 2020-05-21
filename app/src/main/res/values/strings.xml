@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SVVV-Wall</string>
+    <string name="todo">TODO</string>
+
+    <array name="dept">
+        <item>Select your Department</item>
+        <item>IT</item>
+        <item>CS</item>
+        <item>Mechanical</item>
+        <item>Electrical</item>
+        <item>Civil</item>
+        <item>Architecture</item>
+        <item>Automobile</item>
+    </array>
+</resources>

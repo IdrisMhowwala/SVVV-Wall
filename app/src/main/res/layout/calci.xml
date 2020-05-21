@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#60e659">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HELLO IDRIS"
+        android:textColor="#fcaa1d"
+        android:textAlignment="center"
+        android:layout_marginTop="25dp"
+        android:textSize="32dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/no1"
+        android:hint="Enter First number"
+        android:inputType="number"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/no2"
+        android:hint="Enter Second number"
+        android:inputType="number"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnadd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:layout_marginRight="15dp"
+            android:background="#8bf435"
+            android:layout_marginTop="20dp" />
+        <Button
+            android:id="@+id/btnsub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subtract"
+            android:background="#8bf435"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"/>
+        <Button
+            android:id="@+id/btnmul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Multiply"
+            android:layout_marginRight="15dp"
+            android:background="#8bf435"
+            android:layout_marginTop="20dp"/>
+        <Button
+            android:id="@+id/btndiv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Divide"
+            android:background="#8bf435"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#414138"
+        android:textAlignment="center"
+        android:layout_marginTop="25dp"
+        android:textSize="32dp"
+        />
+
+</LinearLayout>
